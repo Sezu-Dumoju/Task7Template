@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona główna</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon.png">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Serwer Node.js</h1>
+        <p class="subtitle">Serwer z routerem i danymi statystycznymi</p>
+        
+        <div class="card">
+            <h2>📊 Statystyki serwera</h2>
+            <div id="stats">
+                <p>Ładowanie statystyk...</p>
+            </div>
+            <button onclick="loadStats()">🔄 Odśwież statystyki</button>
+        </div>
+        
+        <div class="card">
+            <h2>📁 Pliki statyczne</h2>
+            <ul>
+                <li>✅ <strong>CSS</strong> - <a href="/css/style.css">style.css</a></li>
+                <li>✅ <strong>JavaScript</strong> - <a href="/js/script.js">script.js</a></li>
+                <li>✅ <strong>HTML</strong> - <a href="/">main_page.html</a></li>
+                <li>✅ <strong>JSON</strong> - <a href="/stats">statystyki</a></li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>🖼️ Obrazy</h2>
+            <div class="image-grid">
+                <img src="https://picsum.photos/seed/1/150/150" alt="Obraz 1">
+                <img src="https://picsum.photos/seed/2/150/150" alt="Obraz 2">
+                <img src="https://picsum.photos/seed/3/150/150" alt="Obraz 3">
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2026 Wszystkie prawa zastrzeżone</p>
+        </footer>
+    </div>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>
